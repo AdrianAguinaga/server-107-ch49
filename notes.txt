@@ -1,0 +1,23 @@
+the intruction to get access to python 
+if youre running a mac it is python3 
+else the instruction could be py, py3 or pyhton
+
+this is the way that we interact with the PIP
+-m       -from the modules
+pip      -name of the module that i want to use
+install  -what i want to do.
+nameOfTheLibrary 
+
+to create a virtual enviroment, i need to install the virtualenv
+py -m pip install virtualenv
+
+then we use the venv library to create virtual enviroments:
+py -m venv  nameOfTheFolder
+
+now we need to activate our vitual enviroment
+
+mac: 
+source venv/bin/activate
+
+win: 
+venv\Scripts\activate
